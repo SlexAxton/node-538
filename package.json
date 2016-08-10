@@ -1,0 +1,18 @@
+{
+  "name": "538",
+  "version": "1.0.0",
+  "description": "Get the latest presidential poll from fivethirtyeight.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "keywords": [
+    "538",
+    "president",
+    "clinton",
+    "trump",
+    "usa"
+  ],
+  "author": "Alex Sexton <alexsexton@gmail.com>",
+  "license": "ISC"
+}
