@@ -21,7 +21,7 @@ but I'd probably accept a nice PR that smartly adjusted to smaller terminals if 
 ## Show me graphs when I open my terminal
 
 Just add the `538` command to your `~/.bashrc` or `~/.zshrc` (or similar), and it'll run when you
-open your terminal.
+open your terminal. The request isn't always fast, so I don't really recommend doing this.
 
 This might work if you have bash:
 
