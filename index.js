@@ -24,7 +24,7 @@ function graphTextSplit(text, a, b) {
     return [text + spaceTime(a - textLength), spaceTime(b)];
   } else {
     const textRemainder = textLength - a;
-    return [text.substr(0, a), text.substr(a) + spaceTime(textRemainder)];
+    return [text.substr(0, a), text.substr(a) + spaceTime(b - textRemainder)];
   }
 }
 
