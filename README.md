@@ -13,7 +13,7 @@ and may break at any time if they change anything about their website.
 
 Type `538` into your console.
 
-[http://slex.me/3Z3t2Z083p0b/Screen%20Shot%202016-08-10%20at%2012.47.15%20AM.png](http://slex.me/3Z3t2Z083p0b/Screen%20Shot%202016-08-10%20at%2012.47.15%20AM.png)
+![http://f.cl.ly/items/2X2X2A341S3x2m0y3D2u/Screen%20Shot%202016-08-10%20at%2012.47.15%20AM.png](http://f.cl.ly/items/2X2X2A341S3x2m0y3D2u/Screen%20Shot%202016-08-10%20at%2012.47.15%20AM.png)
 
 ## Show me graphs when I open my terminal
 
