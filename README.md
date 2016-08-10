@@ -3,7 +3,8 @@
 A command line util to get the latest presidential polling odds from [fivethiryeight.com](http://projects.fivethirtyeight.com/2016-election-forecast/).
 
 *DISCLAIMER:* I have nothing to do with fivethirtyeight and this is not endorsed or supported by them
-and may break at any time if they change anything about their website.
+and may break at any time if they change anything about their website. Please don't run this command
+any more than you have to, it still comes directly from their servers.
 
 ## Installation
 
