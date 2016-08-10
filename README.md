@@ -1,6 +1,6 @@
 # 538
 
-A command line util to get the latest presidential polling odds from [fivethiryeight.com](http://projects.fivethirtyeight.com/2016-election-forecast/)
+A command line util to get the latest presidential polling odds from [fivethiryeight.com](http://projects.fivethirtyeight.com/2016-election-forecast/).
 
 *DISCLAIMER:* I have nothing to do with fivethirtyeight and this is not endorsed or supported by them
 and may break at any time if they change anything about their website.
@@ -14,6 +14,9 @@ and may break at any time if they change anything about their website.
 Type `538` into your console.
 
 ![http://f.cl.ly/items/2X2X2A341S3x2m0y3D2u/Screen%20Shot%202016-08-10%20at%2012.47.15%20AM.png](http://f.cl.ly/items/2X2X2A341S3x2m0y3D2u/Screen%20Shot%202016-08-10%20at%2012.47.15%20AM.png)
+
+Note: it's 100 characters wide, because I don't hate myself and use terminals with fewer columns,
+but I'd probably accept a nice PR that smartly adjusted to smaller terminals if you wanted.
 
 ## Show me graphs when I open my terminal
 
