@@ -1,6 +1,6 @@
 {
   "name": "538",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Get the latest presidential polling forecasts from fivethirtyeight.com",
   "main": "index.js",
   "repository": {
