@@ -14,10 +14,14 @@
     "trump",
     "usa"
   ],
+  "bin": {
+    "538": "index.js"
+  },
   "author": "Alex Sexton <alexsexton@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "charm": "^1.0.1",
+    "request": "^2.74.0",
     "right-pad": "^1.0.1"
   }
 }
