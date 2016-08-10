@@ -11,7 +11,9 @@ and may break at any time if they change anything about their website.
 
 ## Usage
 
-`$ 538`
+Type `538` into your console.
+
+[http://slex.me/3Z3t2Z083p0b/Screen%20Shot%202016-08-10%20at%2012.47.15%20AM.png](http://slex.me/3Z3t2Z083p0b/Screen%20Shot%202016-08-10%20at%2012.47.15%20AM.png)
 
 ## Show me graphs when I open my terminal
 
@@ -21,7 +23,7 @@ open your terminal.
 This might work if you have bash:
 
 ```
-echo "\n538" >> ~/.zshrc
+echo "\n538" >> ~/.bashrc
 ```
 
 This might work if you have zsh:
