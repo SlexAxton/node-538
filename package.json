@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "Get the latest presidential poll from fivethirtyeight.com",
   "main": "index.js",
-  "scripts": {
-    "test": "npm test"
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/SlexAxton/node-538.git"
   },
   "keywords": [
     "538",
@@ -14,5 +15,9 @@
     "usa"
   ],
   "author": "Alex Sexton <alexsexton@gmail.com>",
-  "license": "ISC"
+  "license": "MIT",
+  "dependencies": {
+    "charm": "^1.0.1",
+    "right-pad": "^1.0.1"
+  }
 }
