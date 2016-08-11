@@ -8,7 +8,7 @@ const rightpad = require('right-pad');
 const charm = require('charm')(process);
 
 function perc(n) {
-  return Math.round(n) + '%';
+  return (Math.round(n*10)/10) + '%';
 }
 
 function spaceTime(n) {
