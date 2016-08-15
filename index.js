@@ -57,17 +57,21 @@ function printGraph(width, latest, model, metric) {
   const j = latest.L.models[model][metric];
 
   const modelLabel = rightpad(model + ':' + metric, 14, ' ');
-  const f = function (name, n) { return name + ': ' + perc(n); };
+  const f = function (name, n) { return rightpad(name + ': ' + perc(n), 14); };
   const prefix = ' ' + modelLabel + '    ';
   const sep = '    ';
   const label = prefix + f('Hillary', h) + sep + f('Trump', t) + sep + f('Johnson', j);
   const graph = rightpad(label, width, ' ');
 
+  const blue = metric === 'winprob' ? 'blue' : 17;
+  const red = metric === 'winprob' ? 'red' : 52;
+  const yellow = metric === 'winprob' ? 'yellow' : 136;
+
   const graphParts = graphSplit(graph, [h, t, j], h + t + j);
   charm.foreground('white');
-  charm.background('blue').write(graphParts[0]);
-  charm.background('red').write(graphParts[1]);
-  charm.background('yellow').write(graphParts[2]);
+  charm.background(blue).write(graphParts[0]);
+  charm.background(red).write(graphParts[1]);
+  charm.background(yellow).write(graphParts[2]);
   charm.display('reset');
 }
 
@@ -78,8 +82,10 @@ stream.on('end', function() {
   const latest = data.forecasts.latest;
 
   const display = function (model, suffix) {
+    charm.display('reset');
     printGraph(width, latest, model, 'forecast');
     process.stdout.write('\n');
+    charm.display('bright');
     printGraph(width, latest, model, 'winprob');
     process.stdout.write(suffix);
   }
